@@ -1,0 +1,152 @@
+body{
+
+}
+
+.TopHead{
+	margin:10px;
+	display:inline-block;
+	 vertical-align: top;
+}
+
+
+/*--header--*/
+.header-top {
+  background-color:#fff;
+  padding:1em 0;
+}
+.logo {
+	float:left;
+}
+.logo a h1{
+  font-size: 2em;
+  font-weight:400;
+  color: #272963;
+ float:right;
+ padding-top:40px;
+ padding-left:20px;
+}
+.logo  a h1:hover{
+ color:#272963;	
+ text-decoration:none;
+}
+.logo a h1 span {
+  color:#272963;
+  text-decoration: none;
+}
+
+
+
+.contant{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	
+}
+
+.txtArea{
+	
+	color: #e2e2e2;
+	font-family: "copperplate";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13pt;
+}
+
+.submit{
+	background-color: #a42770;
+	color: #e2e2e2;
+	font-family: "copperplate";
+	font-size: 10pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	
+}
+
+.backColor{
+	background-color: #e2e2e2;
+	
+}
+
+
+.TxtColor{
+  color:#000000;
+}
+
+
+
+.labelTextCol{
+	color:#e2e2e2;
+	
+}
+	
+
+.labelTextPad{
+	padding:5px;
+	}	
+
+.formRight{
+	
+}
+
+.commonHead{
+	background-color: #a42770;
+	padding:1px;
+}
+
+.commonHead h3{
+	color: #e2e2e2;
+	font-family: "copperplate";
+	font-size: 24pt;
+	text-align: center;
+}
+
+.CommonContant{
+	color: #e2e2e2;
+	padding-top: 30px;
+}
+
+.CommonTextArea{
+	color: #e2e2e2;
+	font-family: "copperplate";
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-size: 13pt;
+	
+}
+
+
+/*
+login Section style css is here
+*/
+
+
+.loginHead{
+	background-color: #a42770;
+	padding:1px;
+	
+}
+
+.loginHead h2{
+	color: #e2e2e2;
+	font-family: "copperplate";
+	font-size: 26pt;
+	text-align: center;
+}
+
+.loginContant{
+	color: #e2e2e2;
+	padding-top: 30px;
+	
+}
+

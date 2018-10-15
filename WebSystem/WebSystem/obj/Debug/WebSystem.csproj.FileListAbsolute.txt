@@ -1,0 +1,289 @@
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\ApplicationInsights.config
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\csc.exe
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\vbc.exe
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\WebSystem.dll.config
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\WebSystem.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\WebSystem.pdb
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Antlr3.Runtime.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\EntityFramework.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\EntityFramework.SqlServer.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.Web.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Newtonsoft.Json.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Helpers.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Mvc.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Optimization.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Razor.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\WebGrease.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\EntityFramework.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\EntityFramework.SqlServer.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.Web.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Helpers.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Mvc.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Optimization.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.Razor.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Antlr3.Runtime.pdb
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\bin\Newtonsoft.Json.xml
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\obj\Debug\WebSystem.csprojResolveAssemblyReference.cache
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\obj\Debug\WebSystem.dll
+D:\video Turorials\[FreeTutorials.us] entity-framework-tutorial\My Visual Studio Projects\WebSystem\WebSystem\obj\Debug\WebSystem.pdb
+E:\WebSystem\WebSystem\bin\ApplicationInsights.config
+E:\WebSystem\WebSystem\bin\roslyn\csc.exe
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WebSystem\WebSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WebSystem\WebSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\WebSystem\WebSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\WebSystem\WebSystem\bin\roslyn\vbc.exe
+E:\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe
+E:\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\WebSystem\WebSystem\bin\WebSystem.dll.config
+E:\WebSystem\WebSystem\bin\WebSystem.dll
+E:\WebSystem\WebSystem\bin\WebSystem.pdb
+E:\WebSystem\WebSystem\bin\Antlr3.Runtime.dll
+E:\WebSystem\WebSystem\bin\EntityFramework.dll
+E:\WebSystem\WebSystem\bin\EntityFramework.SqlServer.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.Web.dll
+E:\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.dll
+E:\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WebSystem\WebSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\WebSystem\WebSystem\bin\Newtonsoft.Json.dll
+E:\WebSystem\WebSystem\bin\System.Web.Helpers.dll
+E:\WebSystem\WebSystem\bin\System.Web.Mvc.dll
+E:\WebSystem\WebSystem\bin\System.Web.Optimization.dll
+E:\WebSystem\WebSystem\bin\System.Web.Razor.dll
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.dll
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.dll
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.dll
+E:\WebSystem\WebSystem\bin\WebGrease.dll
+E:\WebSystem\WebSystem\bin\EntityFramework.xml
+E:\WebSystem\WebSystem\bin\EntityFramework.SqlServer.xml
+E:\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WebSystem\WebSystem\bin\Microsoft.AI.Web.xml
+E:\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.xml
+E:\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WebSystem\WebSystem\bin\System.Web.Helpers.xml
+E:\WebSystem\WebSystem\bin\System.Web.Mvc.xml
+E:\WebSystem\WebSystem\bin\System.Web.Optimization.xml
+E:\WebSystem\WebSystem\bin\System.Web.Razor.xml
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.xml
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.xml
+E:\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.xml
+E:\WebSystem\WebSystem\bin\Antlr3.Runtime.pdb
+E:\WebSystem\WebSystem\bin\Newtonsoft.Json.xml
+E:\WebSystem\WebSystem\obj\Debug\WebSystem.csprojResolveAssemblyReference.cache
+E:\WebSystem\WebSystem\obj\Debug\WebSystem.csproj.CoreCompileInputs.cache
+E:\WebSystem\WebSystem\obj\Debug\WebSystem.dll
+E:\WebSystem\WebSystem\obj\Debug\WebSystem.pdb
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\ApplicationInsights.config
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\csc.exe
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\vbc.exe
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\WebSystem.dll.config
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\WebSystem.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\WebSystem.pdb
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Antlr3.Runtime.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\EntityFramework.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Newtonsoft.Json.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Helpers.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Mvc.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Optimization.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Razor.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\WebGrease.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\EntityFramework.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Helpers.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Mvc.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Optimization.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.Razor.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\bin\Newtonsoft.Json.xml
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\obj\Debug\WebSystem.csprojResolveAssemblyReference.cache
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\obj\Debug\WebSystem.csproj.CoreCompileInputs.cache
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\obj\Debug\WebSystem.dll
+C:\Users\Pathum\Desktop\WebSystem\WebSystem\obj\Debug\WebSystem.pdb
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\ApplicationInsights.config
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\csc.exe
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\vbc.exe
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\WebSystem.dll.config
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\WebSystem.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\WebSystem.pdb
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Antlr3.Runtime.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\EntityFramework.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Newtonsoft.Json.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Helpers.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Mvc.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Optimization.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Razor.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\WebGrease.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\EntityFramework.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Helpers.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Mvc.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Optimization.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.Razor.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\bin\Newtonsoft.Json.xml
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\obj\Debug\WebSystem.csprojResolveAssemblyReference.cache
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\obj\Debug\WebSystem.csproj.CoreCompileInputs.cache
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\obj\Debug\WebSystem.dll
+C:\Users\Pathum\Desktop\PRACTICES\WebSystem\WebSystem\obj\Debug\WebSystem.pdb
+E:\WebSystem\WebSystem\WebSystem\bin\ApplicationInsights.config
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\csc.exe
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\vbc.exe
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe
+E:\WebSystem\WebSystem\WebSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\WebSystem\WebSystem\WebSystem\bin\WebSystem.dll.config
+E:\WebSystem\WebSystem\WebSystem\bin\WebSystem.dll
+E:\WebSystem\WebSystem\WebSystem\bin\WebSystem.pdb
+E:\WebSystem\WebSystem\WebSystem\bin\Antlr3.Runtime.dll
+E:\WebSystem\WebSystem\WebSystem\bin\EntityFramework.dll
+E:\WebSystem\WebSystem\WebSystem\bin\EntityFramework.SqlServer.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.Web.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\WebSystem\WebSystem\WebSystem\bin\Newtonsoft.Json.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Helpers.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Mvc.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Optimization.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Razor.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.dll
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.dll
+E:\WebSystem\WebSystem\WebSystem\bin\WebGrease.dll
+E:\WebSystem\WebSystem\WebSystem\bin\EntityFramework.xml
+E:\WebSystem\WebSystem\WebSystem\bin\EntityFramework.SqlServer.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.Web.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.ApplicationInsights.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Helpers.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Mvc.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Optimization.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.Razor.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.Deployment.xml
+E:\WebSystem\WebSystem\WebSystem\bin\System.Web.WebPages.Razor.xml
+E:\WebSystem\WebSystem\WebSystem\bin\Antlr3.Runtime.pdb
+E:\WebSystem\WebSystem\WebSystem\bin\Newtonsoft.Json.xml
+E:\WebSystem\WebSystem\WebSystem\obj\Debug\WebSystem.csprojResolveAssemblyReference.cache
+E:\WebSystem\WebSystem\WebSystem\obj\Debug\WebSystem.csproj.CoreCompileInputs.cache
+E:\WebSystem\WebSystem\WebSystem\obj\Debug\WebSystem.dll
+E:\WebSystem\WebSystem\WebSystem\obj\Debug\WebSystem.pdb

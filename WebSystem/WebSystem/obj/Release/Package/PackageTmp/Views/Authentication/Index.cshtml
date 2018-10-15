@@ -1,0 +1,65 @@
+﻿@model WebSystem.ViewModel.LoginVM
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In Page</title>
+
+    <!-- Bootstrap -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+
+
+</head>
+<body background="images/back.png" style="background-size:cover">
+
+    <div class="container">
+        <!-- All Contant Contain this Section-->
+
+        <div class="contant">
+
+            <div class="row ">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+
+                    <div class="loginHead">
+                        <h2>Log In</h2>
+                    </div>
+                    <div class="backColor">
+                        <div class="loginContant">
+
+                            @using (Html.BeginForm("Login", "Authentication", FormMethod.Post, new { @class = "col-sm-12 backColor" }))
+                            {
+                                <div class="input-group txtArea">
+                                    
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    @Html.TextBoxFor(m => m.LoginName, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+
+
+                                <div class="input-group txtArea">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    @Html.TextBoxFor(m => m.Password, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <button type="submit" class="submit" data-dismiss="modal">log In</button>
+                            }
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

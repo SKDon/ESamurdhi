@@ -1,0 +1,237 @@
+﻿@model WebSystem.ViewModel.CustomerVM
+
+
+@{
+    @*Layout = "~/Views/Shared/_Layout.cshtml";*@
+//var save = ViewBag.success;
+//var update = ViewBag.update;
+        }
+
+
+        <!DOCTYPE html>
+
+        <html>
+        <head>
+            <meta name="viewport" content="width=device-width" />
+            <title>Add New Referance Person</title>
+            <link href="~/Autoc/jquery-ui.css" rel="stylesheet" />
+            <script src="~/Autoc/jquery-1.12.4.js"></script>
+            <script src="~/Autoc/jquery-ui.js"></script>
+            <link href="~/Content/sweetalert.css" rel="stylesheet" />
+            <script src="~/Scripts/sweetalert.min.js"></script>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12">
+
+                        <div class="panel panel-default">
+
+                            <div class="panel-heading headerFont">
+                                <h3>Referance Person</h3>
+                            </div>
+
+                            <div class="panel-body">
+                                @*@using (Ajax.BeginForm("NewRefPerson", "Customer", "form-horizontal", new AjaxOptions { HttpMethod = "POST" }, new { @id = "form" }))*@
+                            @using (Html.BeginForm("NewRefPerson", "Customer", FormMethod.Post, new { @class = "form-horizontal", @id = "form" }))
+
+
+{
+                            <div class="col-lg-3">
+                                <label>Search By Name:</label>
+                                @Html.Editor("Name", new { htmlAttributes = new { @class = "form-control" } })
+                            </div>
+
+                            <div class="col-lg-9">
+                                <!--Referance Person Name-->
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2 TxtColor">Name</label>
+                                    <div class="col-sm-10">
+                                        @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "name" })
+                                    </div>
+                                </div>
+
+                                <!--Address-->
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2 TxtColor">Address</label>
+                                    <div class="col-sm-10">
+                                        @Html.TextBoxFor(m => m.AccRef.Address, new { @class = "form-control", @id = "adrs" })
+                                    </div>
+                                </div>
+
+
+
+                                <!--Bank-->
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2 TxtColor">Bank</label>
+                                    <div class="col-sm-4">
+                                        @Html.TextBoxFor(m => m.AccRef.Bank, new { @class = "form-control", @id = "bank" })
+                                    </div>
+                                </div>
+
+                                <!--Acc NO-->
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2 TxtColor">Account No</label>
+                                    <div class="col-sm-4">
+                                        @Html.TextBoxFor(m => m.AccRef.AccNo, new { @class = "form-control", @id = "accno" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Contact-->
+                            @*<div class="form-group">
+        <label class="control-label col-sm-2 TxtColor">Contact</label>
+        <div class="col-sm-4">
+            @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+        </div>
+    </div>*@
+
+                            <div class="col-md-12">
+                                @Html.Partial("btn_panel")
+                            </div>
+
+
+}
+                            </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+            <script>
+
+
+    $(document).ready(function () {
+        disableField();
+
+        autoComplete();
+        clearField();
+
+                
+
+        var svd = '@ViewBag.success';
+        var up = '@ViewBag.update ';
+        $("#btnAddNew").click(function () {
+            enableField();
+            $("#Name").prop("readonly", true);
+
+        });
+        $("#btnEdit").click(function () {
+            enableField();
+            
+        });
+        $("#btnSave").click(function () {
+                });
+
+
+         $("#form").after(function () {
+             $("#form").submit(function () {
+                        alert("kk");
+              })
+                    
+                    //if (svd != null) {
+                    //    alert('Saved !');
+                    //} else if (up != null) {
+                    //    alert('Updated !');
+                    //}
+         })
+         $("#Name").click(function () {
+              $("#Name").prop("readonly", false);
+                 disableField();
+              })
+
+    });
+
+    //function Edit(param) {
+    //    $("#Name").autocomplete(
+    //        select: function (request, response) {
+    //       // alert("hited" + param);
+
+    //        $.ajax({
+    //            type: "POST",
+    //            url: "/Customer/getDetails",
+    //            data: { name: request.term },
+    //            dataType: "json",
+    //            success: function (data) {
+    //                //alert("Shit happens" + data)
+    //                response($.map(data, function (item) {
+    //                    alert(data)
+    //                }))
+    //            }
+    //        })
+
+    //    })
+    //};
+    function alerts() {
+        swal("Success","Person Successfully Added !","success")
+    }
+    function autoComplete() {
+
+        $("#Name").autocomplete({
+            source: function (request, response) {
+                console.log(request)
+                $.ajax({
+                    url: "/Customer/getName",
+                    type: "POST",
+                    dataType: "json",
+                    data: { prefix: request.term },
+                    success: function (data) {
+                        //alert(data.val)
+                        console.log(data)
+                        response($.map(data, function (item) {
+                            //alert("response")
+                            return { value: item.Name, value2: item.ID };//, value: item.Name
+                            
+                        }
+                        ))
+                        
+                    }
+                })
+            },
+            select: function (event,ui) {
+                var det = ui.item.value2
+                console.log(ui.item.value2)
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/Customer/getDetails",
+                        data: { id: det },
+                        dataType: "json",
+                        success: function (data) {
+                            $("#adrs").val(data[0].Address)
+                            $("#name").val(data[0].FullName)
+                            $("#bank").val(data[0].Bank)
+                            $("#accno").val(data[0].AccNo)
+                        }
+                    })
+                }
+        })
+    }
+    function enableField() {
+
+        $("#name").prop("readonly", false);
+        $("#adrs").prop("readonly", false);
+        $("#bank").prop("readonly", false);
+        $("#accno").prop("readonly", false);
+    }
+    function disableField() {
+
+        $("#name").prop("readonly", true);
+        $("#adrs").prop("readonly", true);
+        $("#bank").prop("readonly", true);
+        $("#accno").prop("readonly", true);
+    }
+    function clearField() {
+        $("#name").val("");
+        $("#adrs").val("");
+        $("#bank").val("");
+        $("#accno").val("");
+    }
+            </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7fc6227e03594c3882b0c4bc99cc5809" Name="Diagram1">
+        <EntityTypeShape EntityType="ESamurdhiModel.AccountProfile" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.AccRefPerson" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.Area" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.Guarantor" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.LoanSummary" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.LoanType" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <AssociationConnector Association="ESamurdhiModel.FK_AccountProfile_AccRefPerson" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ESamurdhiModel.Login" Width="1.5" PointX="6.5" PointY="6.625" />
+        <EntityTypeShape EntityType="ESamurdhiModel.Transaction" Width="1.5" PointX="7.875" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ESamurdhiModel.LoneLedger" Width="1.5" PointX="5.125" PointY="0.5" />
+        <AssociationConnector Association="ESamurdhiModel.FK_LoneLedger_AccountProfile" />
+        <AssociationConnector Association="ESamurdhiModel.FK_LoneLedger_Area" />
+        <AssociationConnector Association="ESamurdhiModel.FK_LoneLedger_Guarantees" />
+        <AssociationConnector Association="ESamurdhiModel.FK_LoneLedger_LoneSummary" />
+        <AssociationConnector Association="ESamurdhiModel.FK_LoneLedger_LoneType" />
+        <AssociationConnector Association="ESamurdhiModel.FK_Transaction_LoanLedger" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

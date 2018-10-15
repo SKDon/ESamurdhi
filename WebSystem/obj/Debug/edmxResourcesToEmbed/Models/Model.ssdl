@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ESamurdhiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AccountProfile">
+    <Key>
+      <PropertyRef Name="AccNo" />
+    </Key>
+    <Property Name="AccNo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="NIC" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="AccOpenDate" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="Bank" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="DOB" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="Occupation" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ReferancePersonID" Type="int" />
+    <Property Name="MemberID" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AccRefPerson">
+    <Key>
+      <PropertyRef Name="ReferancePersonID" />
+    </Key>
+    <Property Name="ReferancePersonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="AccNo" Type="int" Nullable="false" />
+    <Property Name="Bank" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="AreaID" />
+    </Key>
+    <Property Name="AreaID" Type="int" Nullable="false" />
+    <Property Name="AreaName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Guarantors">
+    <Key>
+      <PropertyRef Name="GuarantorsID" />
+    </Key>
+    <Property Name="GuarantorsID" Type="int" Nullable="false" />
+    <Property Name="GFullName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="GAddress" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="GNIC" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoanSummary">
+    <Key>
+      <PropertyRef Name="LoanSummaryID" />
+    </Key>
+    <Property Name="LoanSummaryID" Type="int" Nullable="false" />
+    <Property Name="PaidAmount" Type="float" />
+    <Property Name="Balance" Type="float" />
+    <Property Name="PaidInterestAmount" Type="float" />
+    <Property Name="InterestBalance" Type="float" />
+  </EntityType>
+  <EntityType Name="LoanType">
+    <Key>
+      <PropertyRef Name="LoanTypeID" />
+    </Key>
+    <Property Name="LoanTypeID" Type="int" Nullable="false" />
+    <Property Name="LoanName" Type="varchar" MaxLength="50" />
+    <Property Name="Interest" Type="float" />
+    <Property Name="LoanLimit" Type="float" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="10" />
+    <Property Name="Password" Type="varchar" MaxLength="35" />
+  </EntityType>
+  <EntityType Name="LoneLedger">
+    <Key>
+      <PropertyRef Name="LoanNo" />
+    </Key>
+    <Property Name="LoanNo" Type="int" Nullable="false" />
+    <Property Name="AccNo" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="GroupAccNo" Type="int" />
+    <Property Name="MemberID" Type="varchar" MaxLength="100" />
+    <Property Name="LoanAmount" Type="float" Nullable="false" />
+    <Property Name="GuarantorsID" Type="int" Nullable="false" />
+    <Property Name="Reason" Type="varchar" MaxLength="500" />
+    <Property Name="LoanTypeID" Type="int" />
+    <Property Name="ReleasedDate" Type="varchar" MaxLength="12" />
+    <Property Name="AreaID" Type="int" />
+    <Property Name="IsFullPaid" Type="bit" Nullable="false" />
+    <Property Name="LoanSummaryID" Type="int" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="LoanNo" />
+      <PropertyRef Name="TransactionNo" />
+    </Key>
+    <Property Name="LoanNo" Type="int" Nullable="false" />
+    <Property Name="Month" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PaidAmount" Type="float" Nullable="false" />
+    <Property Name="PaidDate" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="TransactionNo" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AccountProfile_AccRefPerson">
+    <End Role="AccRefPerson" Type="Self.AccRefPerson" Multiplicity="0..1" />
+    <End Role="AccountProfile" Type="Self.AccountProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccRefPerson">
+        <PropertyRef Name="ReferancePersonID" />
+      </Principal>
+      <Dependent Role="AccountProfile">
+        <PropertyRef Name="ReferancePersonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LoneLedger_AccountProfile">
+    <End Role="AccountProfile" Type="Self.AccountProfile" Multiplicity="1" />
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountProfile">
+        <PropertyRef Name="AccNo" />
+      </Principal>
+      <Dependent Role="LoneLedger">
+        <PropertyRef Name="AccNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LoneLedger_Area">
+    <End Role="Area" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Area">
+        <PropertyRef Name="AreaID" />
+      </Principal>
+      <Dependent Role="LoneLedger">
+        <PropertyRef Name="AreaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LoneLedger_Guarantees">
+    <End Role="Guarantors" Type="Self.Guarantors" Multiplicity="1" />
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guarantors">
+        <PropertyRef Name="GuarantorsID" />
+      </Principal>
+      <Dependent Role="LoneLedger">
+        <PropertyRef Name="GuarantorsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LoneLedger_LoneSummary">
+    <End Role="LoanSummary" Type="Self.LoanSummary" Multiplicity="0..1" />
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoanSummary">
+        <PropertyRef Name="LoanSummaryID" />
+      </Principal>
+      <Dependent Role="LoneLedger">
+        <PropertyRef Name="LoanSummaryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LoneLedger_LoneType">
+    <End Role="LoanType" Type="Self.LoanType" Multiplicity="0..1" />
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoanType">
+        <PropertyRef Name="LoanTypeID" />
+      </Principal>
+      <Dependent Role="LoneLedger">
+        <PropertyRef Name="LoanTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_LoanLedger">
+    <End Role="LoneLedger" Type="Self.LoneLedger" Multiplicity="1" />
+    <End Role="Transaction" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoneLedger">
+        <PropertyRef Name="LoanNo" />
+      </Principal>
+      <Dependent Role="Transaction">
+        <PropertyRef Name="LoanNo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ESamurdhiModelStoreContainer">
+    <EntitySet Name="AccountProfile" EntityType="Self.AccountProfile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AccRefPerson" EntityType="Self.AccRefPerson" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Area" EntityType="Self.Area" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guarantors" EntityType="Self.Guarantors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoanSummary" EntityType="Self.LoanSummary" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoanType" EntityType="Self.LoanType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoneLedger" EntityType="Self.LoneLedger" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AccountProfile_AccRefPerson" Association="Self.FK_AccountProfile_AccRefPerson">
+      <End Role="AccRefPerson" EntitySet="AccRefPerson" />
+      <End Role="AccountProfile" EntitySet="AccountProfile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LoneLedger_AccountProfile" Association="Self.FK_LoneLedger_AccountProfile">
+      <End Role="AccountProfile" EntitySet="AccountProfile" />
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LoneLedger_Area" Association="Self.FK_LoneLedger_Area">
+      <End Role="Area" EntitySet="Area" />
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LoneLedger_Guarantees" Association="Self.FK_LoneLedger_Guarantees">
+      <End Role="Guarantors" EntitySet="Guarantors" />
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LoneLedger_LoneSummary" Association="Self.FK_LoneLedger_LoneSummary">
+      <End Role="LoanSummary" EntitySet="LoanSummary" />
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LoneLedger_LoneType" Association="Self.FK_LoneLedger_LoneType">
+      <End Role="LoanType" EntitySet="LoanType" />
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_LoanLedger" Association="Self.FK_Transaction_LoanLedger">
+      <End Role="LoneLedger" EntitySet="LoneLedger" />
+      <End Role="Transaction" EntitySet="Transaction" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

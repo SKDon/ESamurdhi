@@ -1,0 +1,144 @@
+﻿@model WebSystem.ViewModel.AccountVM
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="panel panel-primary">
+
+                <div class="panel-heading header-font">
+                    <h3>Customer Loan Account</h3>
+                </div>
+
+                <div class="panel-body">
+                    @using (Html.BeginForm("NewRef", "Customer", FormMethod.Post, new { @class = "form-horizontal" }))
+                    {
+
+                        <div class="col-lg-12">
+                            <!--Search By Account No-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Search By Account No</label>
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="txtsearch" />
+                                </div>
+                            </div>
+                            <hr />
+
+                            <!--Account No-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Customer Account No</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBox( "f",new { @class = "form-control", @id = "txtAccNo" })
+
+                                </div>
+
+
+                                <!--Loan Type-->
+                                <label class="control-label col-sm-2 TxtColor">Loan Type</label>
+                                <div class="col-sm-4">
+
+
+                                </div>
+                            </div>
+
+
+
+                            <!--Bank Name-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Bank Name</label>
+                                <div class="col-sm-4">
+
+                                </div>
+
+
+                                <!--Loan Amount-->
+                                <label class="control-label col-sm-2 TxtColor">Loan Amount</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBox("d", new { @class = "form-control", @id = "txtAddress" })
+                                </div>
+
+                            </div>
+
+
+
+
+                            <!--Reason-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Reason</label>
+                                <div class="col-sm-10">
+                                    @Html.TextBox("s", new { @class = "form-control", @id = "txtDOB", @default = "1960-01-01", @data_date = "1960-01-01" })
+
+                                </div>
+
+                            </div>
+
+
+                            <!--Relesed Date-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Relesed Date</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBox("a", new { @class = "form-control", @id = "txtDOB", @default = "1960-01-01", @data_date = "1960-01-01" })
+
+                                </div>
+
+                            </div>
+
+
+
+                            <br />
+
+
+                            <hr />
+                            <div class="header-font">
+                                <h3>Gurantor Details</h3>
+                            </div>
+                            <hr />
+
+                            <!--Referance Person Name-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Gurantor Name</label>
+                                <div class="col-sm-10">
+                                    @Html.TextBox("q", new { @class = "form-control", @id = "refName" })
+                                </div>
+                            </div>
+
+
+                            <!--Address-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Address</label>
+                                <div class="col-sm-10">
+                                    @Html.TextBox("w", new { @class = "form-control", @id = "refAddress" })
+                                </div>
+                            </div>
+
+                            <!--Contact And NIC-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">NIC</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBox("e", new { @class = "form-control", @id = "refNIC" })
+
+                                </div>
+
+
+                                <!--Contact No-->
+                                <label class="control-label col-sm-2 TxtColor">Contact No</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBox("r", new { @class = "form-control", @id = "refContact" })
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <br />
+
+                        <!--Button-->
+                        <div class="col-md-12">
+                            @Html.Partial("btn_panel")
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

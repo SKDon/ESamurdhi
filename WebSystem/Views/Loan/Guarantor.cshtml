@@ -1,0 +1,72 @@
+﻿@model WebSystem.ViewModel.CustomerVM
+@{
+    ViewBag.Title = "Guarantor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <div class="panel panel-default">
+
+                <div class="panel-heading headerFont">
+                    <h3>Gurantor Details</h3>
+                </div>
+
+                <div class="panel-body">
+                    @using (Html.BeginForm("RefPerson", "Customer", FormMethod.Post, new { @class = "form-horizontal", @name = "NewAccountForm" }))
+                    {
+                        <div class="col-lg-3">
+                            <label>Search By Name:</label>
+                            @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+                        </div>
+                        <div class="col-lg-9">
+                            <!--Gurantor Name-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Full Name</label>
+                                <div class="col-sm-10">
+                                    @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+                                </div>
+                            </div>
+
+                            <!--Gurantor Address-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Address</label>
+                                <div class="col-sm-10">
+                                    @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+                                </div>
+                            </div>
+
+                            <!--NIC-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">NIC</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+                                </div>
+                            </div>
+
+                            <!--Contact-->
+                            <div class="form-group">
+                                <label class="control-label col-sm-2 TxtColor">Contact</label>
+                                <div class="col-sm-4">
+                                    @Html.TextBoxFor(m => m.AccRef.FullName, new { @class = "form-control", @id = "txtsearch" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            @Html.Partial("btn_panel")
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+

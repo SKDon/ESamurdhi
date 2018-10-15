@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ESamurdhiModelStoreContainer" CdmEntityContainer="ESamurdhiEntities">
+    <EntitySetMapping Name="AccountProfiles">
+      <EntityTypeMapping TypeName="ESamurdhiModel.AccountProfile">
+        <MappingFragment StoreEntitySet="AccountProfile">
+          <ScalarProperty Name="AccNo" ColumnName="AccNo" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="NIC" ColumnName="NIC" />
+          <ScalarProperty Name="AccOpenDate" ColumnName="AccOpenDate" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Occupation" ColumnName="Occupation" />
+          <ScalarProperty Name="ReferancePersonID" ColumnName="ReferancePersonID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccRefPersons">
+      <EntityTypeMapping TypeName="ESamurdhiModel.AccRefPerson">
+        <MappingFragment StoreEntitySet="AccRefPerson">
+          <ScalarProperty Name="ReferancePersonID" ColumnName="ReferancePersonID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="AccNo" ColumnName="AccNo" />
+          <ScalarProperty Name="Bank" ColumnName="Bank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="ESamurdhiModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+          <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guarantors">
+      <EntityTypeMapping TypeName="ESamurdhiModel.Guarantor">
+        <MappingFragment StoreEntitySet="Guarantors">
+          <ScalarProperty Name="GuarantorsID" ColumnName="GuarantorsID" />
+          <ScalarProperty Name="GFullName" ColumnName="GFullName" />
+          <ScalarProperty Name="GAddress" ColumnName="GAddress" />
+          <ScalarProperty Name="GNIC" ColumnName="GNIC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanSummaries">
+      <EntityTypeMapping TypeName="ESamurdhiModel.LoanSummary">
+        <MappingFragment StoreEntitySet="LoanSummary">
+          <ScalarProperty Name="LoanSummaryID" ColumnName="LoanSummaryID" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="PaidInterestAmount" ColumnName="PaidInterestAmount" />
+          <ScalarProperty Name="InterestBalance" ColumnName="InterestBalance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoanTypes">
+      <EntityTypeMapping TypeName="ESamurdhiModel.LoanType">
+        <MappingFragment StoreEntitySet="LoanType">
+          <ScalarProperty Name="LoanTypeID" ColumnName="LoanTypeID" />
+          <ScalarProperty Name="LoanName" ColumnName="LoanName" />
+          <ScalarProperty Name="Interest" ColumnName="Interest" />
+          <ScalarProperty Name="LoanLimit" ColumnName="LoanLimit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="ESamurdhiModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transactions">
+      <EntityTypeMapping TypeName="ESamurdhiModel.Transaction">
+        <MappingFragment StoreEntitySet="Transaction">
+          <ScalarProperty Name="TransactionNo" ColumnName="TransactionNo" />
+          <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="Month" ColumnName="Month" />
+          <ScalarProperty Name="LoanNo" ColumnName="LoanNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoneLedgers">
+      <EntityTypeMapping TypeName="ESamurdhiModel.LoneLedger">
+        <MappingFragment StoreEntitySet="LoneLedger">
+          <ScalarProperty Name="LoanSummaryID" ColumnName="LoanSummaryID" />
+          <ScalarProperty Name="IsFullPaid" ColumnName="IsFullPaid" />
+          <ScalarProperty Name="AreaID" ColumnName="AreaID" />
+          <ScalarProperty Name="ReleasedDate" ColumnName="ReleasedDate" />
+          <ScalarProperty Name="LoanTypeID" ColumnName="LoanTypeID" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="GuarantorsID" ColumnName="GuarantorsID" />
+          <ScalarProperty Name="LoanAmount" ColumnName="LoanAmount" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="GroupAccNo" ColumnName="GroupAccNo" />
+          <ScalarProperty Name="AccNo" ColumnName="AccNo" />
+          <ScalarProperty Name="LoanNo" ColumnName="LoanNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
